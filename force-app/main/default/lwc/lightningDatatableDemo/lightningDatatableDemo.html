@@ -1,0 +1,11 @@
+<template>
+    <lightning-card>
+        <c-custom-datatable 
+              key-field="id"
+              data={accounts}
+              columns={columns}
+              onpicklistchanged={handlePicklistChange}
+        ></c-custom-datatable>
+    </lightning-card>
+    
+</template>
